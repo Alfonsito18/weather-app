@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(60deg, #A18CD1, #FBC2EB);
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 110vh;
+}
+
+.weather-container {
+  height: 36em;
+  border-radius: 2em;
+  width: 25em;
+  background: linear-gradient(60deg, #B23DEB, #DE8FFF);
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.search-bar {
+  display: flex;
+  margin-top: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+  justify-content: space-between;
+}
+.search-bar input {
+  border-radius: 2em;
+  width: 21em;
+  height: 3em;
+  border: none;
+  padding-left: 2em;
+}
+.search-bar button {
+  border: none;
+  width: 3.5em;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.search-bar img {
+  width: 2em;
+  height: 2em;
+}
+
+p {
+  padding-left: 3em;
+  color: white;
+  font-weight: 500;
+  margin-top: 5px;
+  display: none;
+}
+
+.text-content {
+  padding-top: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 2em;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 22px;
+}
+.content {
+  padding-top: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+  display: flex;
+}
+.content img {
+  width: 9em;
+  height: 9em;
+}
+
+.stats {
+  padding-left: 2em;
+  line-height: 2em;
+}
+.stats span {
+  color: #fff;
+}
+.stats h2 {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+.other-country {
+  padding: 0;
+  padding-top: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+.other-country .other {
+  height: 19vh;
+  width: 10em;
+  background: #8F7CA8;
+  border-radius: 10px;
+}
+.other-country .other .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.other-country .other .content img {
+  height: 2em;
+  width: 2em;
+}
+.other-country .other .content h2 {
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.other-stats {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 15px;
+  margin-right: 15px;
+  line-height: 1em;
+}
+.other-stats div {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.other-stats div span {
+  color: white;
+  font-size: 10px;
+  font-weight: 200;
+}
+.other-stats div h2 {
+  color: white;
+  font-size: 13px;
+}
+
+@media only screen and (max-width: 480px) {
+  .weather-container {
+    height: 27.5em;
+    width: 18em;
+  }
+  .search-bar {
+    margin-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  .search-bar input {
+    height: 3em;
+    width: 15em;
+    outline: none;
+    border: none;
+    padding-left: 1em;
+  }
+  .search-bar button {
+    width: 3em;
+    border-radius: 100%;
+  }
+  .text-content {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  .text-content h2 {
+    font-size: 1em;
+  }
+  .text-content h1 {
+    font-size: 2em;
+  }
+  .content {
+    padding: 0;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  .content img {
+    height: 7em;
+    width: 7em;
+  }
+  .stats {
+    padding-top: 1em;
+    padding-left: 1em;
+    line-height: 1.5em;
+  }
+  .stats h2 {
+    font-size: 1em;
+  }
+  .other-country {
+    padding: 0;
+    padding-top: 1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+  .other-country .other {
+    height: 17vh;
+    width: 8em;
+  }
+}/*# sourceMappingURL=styles.css.map */
